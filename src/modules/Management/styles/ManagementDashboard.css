@@ -1,0 +1,78 @@
+.dashboard-container {
+  padding: 20px;
+  font-family: sans-serif;
+  background-color: white;
+  min-height: 100vh;
+}
+
+.top-section {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.status-box {
+  border: 1px solid #ddd;
+  padding: 20px;
+  text-align: center;
+  width: 150px;
+  border-radius: 8px;
+}
+
+.status-box p {
+  margin: 0 0 5px;
+  font-weight: bold;
+}
+
+.status-box span {
+  font-size: 2em;
+}
+
+.approved {
+  background-color: #e6f7e9;
+  color: #389e0d;
+}
+
+.pending {
+  background-color: #fffbe6;
+  color: #d48806;
+}
+
+.denied {
+  background-color: #fff1f0;
+  color: #a61d24;
+}
+
+.requests-section {
+  margin-top: 20px;
+}
+
+.requests-table-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-y: auto;
+  max-height: 300px; /* Adjust as needed */
+}
+
+.requests-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.requests-table th,
+.requests-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.requests-table th {
+  background-color: #f2f2f2;
+}
+
+.requests-table-container {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow-y: auto; /* Enables vertical scrollbar */
+  max-height: 300px; /* Adjust as needed */
+}
