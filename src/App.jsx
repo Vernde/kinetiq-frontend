@@ -102,8 +102,11 @@ function App() {
       "Purchase Orders": "PurchaseOrders",
     },
     Operations: {
-      "Workflow Automation": "WorkflowAutomation",
-      "Operational Analytics": "OperationalAnalytics",
+      "Goods Tracking": "GoodsTracking",
+      "Internal Transfer": "InternalTransfer",
+      "Delivery Approval": "DeliveryApproval",
+      "Delivery Receipt": "DeliveryReceipt",
+      "Item Removal": "ItemRemoval",
     },
     Sales: {
       Quotation: "Quotation",
